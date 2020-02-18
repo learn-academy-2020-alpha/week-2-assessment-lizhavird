@@ -30,7 +30,7 @@
 
         nextMood = () => {
           if(currentMood === moods.length - 1){
-            this.setState({ currentMood: currentMood = 0 })
+            this.setState({ currentMood: currentMood = -1 })
           } else {
             this.setState({ currentMood: currentMood + 1 })
           }
